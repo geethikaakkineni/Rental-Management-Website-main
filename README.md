@@ -1,17 +1,69 @@
-Overview :-
-Welcome to our Rental Management Website, a user-friendly platform built with React, Node.js, and Tailwind CSS. Our website is designed to simplify the process of finding rental flats in your locality and managing any issues that may arise. With a seamless integration of a robust backend and a responsive frontend, users can easily browse through available flats, view detailed information, and raise tickets for maintenance or other issues. This project aims to enhance the rental experience for tenants and landlords alike by providing a comprehensive solution for rental management.
+# Rental Management Website  
 
-Features :-
-Our Rental Management Website offers a range of features to ensure a smooth and efficient experience:
-Flat Listing: Explore nearby flats with detailed descriptions and images.
-Ticket Management: Users can report issues and track the status of their tickets.
-User Authentication: Secure login and registration system to protect user data.
-Admin Panel: Admins have access to a dedicated panel to manage flats, users, and tickets.
-Responsive Design: Tailwind CSS ensures that the website is fully responsive and looks great on all devices.
+## 📖 Overview  
+Welcome to the **Rental Management Website** — a user-friendly platform built with **React**, **Node.js**, and **Tailwind CSS**.  
+This platform simplifies the process of **finding rental flats** in your locality and **managing rental-related issues**.  
 
-Technologies Used :-
-We have utilized a modern tech stack to build this project:
-Frontend: React, Tailwind CSS
-Backend: Node.js, E
-Database: MongoDB
-Other Libraries: Axios for API calls, react-router-dom for navigation
+With a robust backend and a responsive frontend, users can:  
+- Browse available flats  
+- View detailed descriptions and images  
+- Raise maintenance or issue tickets  
+- Track ticket statuses  
+
+The system benefits **both tenants and landlords** by offering a **comprehensive rental management solution**.  
+
+---
+
+## ✨ Features  
+- **Flat Listing** – Explore nearby flats with detailed descriptions and images.  
+- **Ticket Management** – Report issues and track their progress.  
+- **User Authentication** – Secure login and registration to protect user data.  
+- **Admin Panel** – Manage flats, users, and tickets through an admin dashboard.  
+- **Responsive Design** – Fully mobile-friendly using Tailwind CSS.  
+
+---
+
+## 🛠️ Technologies Used  
+- **Frontend:** React, Tailwind CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Other Libraries:**  
+  - Axios – API calls  
+  - react-router-dom – Navigation  
+
+---
+
+## 🚀 Getting Started  
+
+### 1️⃣ Prerequisites  
+Make sure you have installed:  
+- [Node.js](https://nodejs.org/) (v14+)  
+- [MongoDB](https://www.mongodb.com/)  
+
+### 2️⃣ Clone the Repository  
+```bash
+git clone https://github.com/yourusername/rental-management-website.git
+cd rental-management-website
+
+3️⃣ Install Dependencies
+- Install backend dependencies
+cd backend
+npm install
+- Install frontend dependencies
+cd ../frontend
+npm install
+
+4️⃣ Configure Environment Variables
+Create a .env file in the backend directory:
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
+
+5️⃣ Run the Application
+- Start backend server
+cd backend
+npm start
+- Start frontend
+cd ../frontend
+npm start
